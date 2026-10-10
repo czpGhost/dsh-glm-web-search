@@ -1,0 +1,63 @@
+{
+  "name": "dsh-glm-web-search",
+  "version": "0.1.0",
+  "description": "Z.AI (GLM) web search, web reader and vision for DeepSeek Harness, authenticated by a Z.AI email (OAuth) login instead of an API key.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "zai",
+    "zcode",
+    "glm",
+    "web-search",
+    "web-reader",
+    "web-fetch",
+    "vision",
+    "search-provider",
+    "fetch-provider",
+    "oauth"
+  ],
+  "license": "MIT",
+  "author": "czpGhost",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czpGhost/dsh-glm-web-search.git"
+  },
+  "homepage": "https://github.com/czpGhost/dsh-glm-web-search#readme",
+  "bugs": {
+    "url": "https://github.com/czpGhost/dsh-glm-web-search/issues"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/**/*.js",
+    "scripts/**/*.mjs",
+    "cordis.patch.yml",
+    "README.md",
+    "README-CN.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "login": "node scripts/login.mjs",
+    "selftest": "node scripts/selftest.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "verify": "node scripts/verify-commands.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  }
+}

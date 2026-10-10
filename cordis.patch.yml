@@ -1,0 +1,20 @@
+- id: web
+  config:
+    searchProvider: zai
+    fetchProvider: zai
+
+- id: web-search-deepseek
+  disabled: true
+
+- id: web-fetch-http
+  disabled: true
+
+- insert:
+    - id: web-search-zai
+      name: dsh-glm-web-search
+      config:
+        origin: https://zcode.z.ai
+        model: GLM-5.3
+        jwtEnv: ZAI_JWT
+        vision: true
+        timeoutMs: 90000
