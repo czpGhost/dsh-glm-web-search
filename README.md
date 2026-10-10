@@ -6,10 +6,10 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/dsh-glm-web-search"><img src="https://img.shields.io/npm/v/dsh-glm-web-search?label=npm&color=CB3837" alt="npm"></a>
+  <a href="https://www.npmjs.com/package/dsh-glm-web-search"><img src="https://img.shields.io/npm/v/dsh-glm-web-search?label=npm&color=CB3837" alt="npm version"></a>
   <a href="https://www.npmjs.com/package/dsh-glm-web-search"><img src="https://img.shields.io/npm/l/dsh-glm-web-search?label=license" alt="License"></a>
-  <img src="https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-brightgreen" alt="Node">
-  <img src="https://img.shields.io/badge/dependencies-0-success" alt="Dependencies">
+  <a href="https://www.npmjs.com/package/dsh-glm-web-search"><img src="https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-brightgreen" alt="Node"></a>
+  <a href="https://www.npmjs.com/package/dsh-glm-web-search"><img src="https://img.shields.io/badge/dependencies-0-success" alt="Dependencies"></a>
 </p>
 
 <p align="center">

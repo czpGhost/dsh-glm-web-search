@@ -1,6 +1,6 @@
 {
   "name": "dsh-glm-web-search",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Z.AI (GLM) web search, web reader and vision for DeepSeek Harness, authenticated by a Z.AI email (OAuth) login instead of an API key.",
   "keywords": [
     "deepseek",
