@@ -6,12 +6,21 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
-  <img src="https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-brightgreen.svg" alt="Node">
-  <img src="https://img.shields.io/badge/dependencies-0-success.svg" alt="Dependencies">
+  <a href="https://www.npmjs.com/package/dsh-glm-web-search"><img src="https://img.shields.io/npm/v/dsh-glm-web-search?label=npm&color=CB3837" alt="npm"></a>
+  <a href="https://www.npmjs.com/package/dsh-glm-web-search"><img src="https://img.shields.io/npm/l/dsh-glm-web-search?label=license" alt="License"></a>
+  <img src="https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-brightgreen" alt="Node">
+  <img src="https://img.shields.io/badge/dependencies-0-success" alt="Dependencies">
 </p>
 
-> English version: [README.md](README.md)
+<p align="center">
+  <a href="https://www.npmjs.com/package/dsh-glm-web-search">npm</a> ·
+  <a href="https://github.com/czpGhost/dsh-glm-web-search">GitHub</a> ·
+  <a href="README.md">English</a>
+</p>
+
+```bash
+dsh plugin --profile desktop add dsh-glm-web-search
+```
 
 ## 为什么做这个项目
 
@@ -29,7 +38,7 @@ DeepSeek Harness 的 `web_search` / `web_fetch` 默认走官方后端，需要�
 | **网页搜索** | 替换官方 `web_search` 后端，由 `web_search_prime` 提供结果 |
 | **网页读取** | 替换官方 `web_fetch` 后端，由 `webReader` 提取正文 |
 | **视觉理解** | 新增 `zai_vision` 工具，可直接读图、OCR、看图问答 |
-| **零依赖** | 项目内没有 `node_modules`，装完即用 |
+| **零依赖** | 没有 `node_modules`，没有 `dependencies`，也没有 `peerDependencies` |
 | **状态栏** | `/dsh-glm-status` 一行展示令牌时效、套餐到期与剩余额度 |
 
 ## 安装
@@ -153,6 +162,7 @@ dsh plugin --profile desktop add dsh-glm-web-search
 - [x] 搜索 / 读取 / 视觉三项能力
 - [x] 邮箱 OAuth 登录，无需 API Key
 - [x] 状态栏与额度显示
+- [x] 已发布到 [npm](https://www.npmjs.com/package/dsh-glm-web-search)
 - [ ] 完整截图与演示 GIF
 - [ ] 英文文档完善（欢迎 PR）
 

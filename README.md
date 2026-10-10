@@ -6,12 +6,21 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
-  <img src="https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-brightgreen.svg" alt="Node">
-  <img src="https://img.shields.io/badge/dependencies-0-success.svg" alt="Dependencies">
+  <a href="https://www.npmjs.com/package/dsh-glm-web-search"><img src="https://img.shields.io/npm/v/dsh-glm-web-search?label=npm&color=CB3837" alt="npm"></a>
+  <a href="https://www.npmjs.com/package/dsh-glm-web-search"><img src="https://img.shields.io/npm/l/dsh-glm-web-search?label=license" alt="License"></a>
+  <img src="https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-brightgreen" alt="Node">
+  <img src="https://img.shields.io/badge/dependencies-0-success" alt="Dependencies">
 </p>
 
-> 中文文档：[README-CN.md](README-CN.md)
+<p align="center">
+  <a href="https://www.npmjs.com/package/dsh-glm-web-search">npm</a> ·
+  <a href="https://github.com/czpGhost/dsh-glm-web-search">GitHub</a> ·
+  <a href="README-CN.md">中文文档</a>
+</p>
+
+```bash
+dsh plugin --profile desktop add dsh-glm-web-search
+```
 
 ## Why this exists
 
@@ -30,7 +39,7 @@ the model sees do not change, only the service behind them.
 | **Web search** | Replaces the official `web_search` backend with `web_search_prime` |
 | **Web reader** | Replaces the official `web_fetch` backend with `webReader` |
 | **Vision** | Adds a `zai_vision` tool for image description, OCR and visual Q&A |
-| **Zero dependencies** | No `node_modules` in the project — install and it works |
+| **Zero dependencies** | No `node_modules`, no `dependencies`, no `peerDependencies` |
 | **Status line** | `/dsh-glm-status` shows token age, plan expiry and remaining quota |
 
 ## Install
@@ -158,6 +167,7 @@ which is why it is safe to appear twice and `dsh-tools` is not.
 - [x] Search, fetch and vision
 - [x] Email OAuth login, no API key
 - [x] Status line with quota
+- [x] Published on [npm](https://www.npmjs.com/package/dsh-glm-web-search)
 - [ ] Real screenshots and a demo GIF
 - [ ] Documentation polish (PRs welcome)
 
